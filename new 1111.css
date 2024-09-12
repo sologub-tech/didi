@@ -6,11 +6,42 @@
 		body {
 			padding: 40px;
 			background: url(bg_page.png) repeat-x;
-			background-color: #3967CC;
+			background-color: #64AAD0;
+			margin: 0 auto; /*Выравнивание элемента по центру родителя*/
+			width: 80%; /*Размер в процентах от всего размера родительского элемента*/
+			border-radius: 70px; /* Cкругление углов*/
+			box-shadow: -80px -10px 60px rgba(255,0,0,.5);/*Тень от элемента с параметрами положения 
+			и размытия  и цвета*/
 		}
 		p {
 			padding: 20px;
 			color: rgb(45,84,44);
 			font-size: 18px;
 			font-family: "Protest Guerrilla", sans-serif;
+			line-height: 150%;
+			margin-left:60px;
 		}
+		h2 {/*Задаем параметра заголовка второго уровня*/
+			font-family:"Protest Guerrilla", sans-serif;
+			color: rgb(255,177,0);
+			font-size: 3.2em;
+			border-bottom: 2px black solid;
+			padding: 0 0 10px 300px;
+			margin: 0;
+			background: url(head-icon.png) no-repeat 260px 25px;
+		}
+		.intro{
+			color: (40,40,200);
+			font-family:"Playwrite CU", cursive;
+			font-size:1.2em;
+			margin-left:0px;
+			marigin-bottom: 25px;
+		}
+		h1 {
+			text-align: center;
+			color: #A60000;
+			font-size: 5.2em;
+			box-shadow: 80px -50px 80px rgba(255,233,22,.5);
+		}
+			
+			
