@@ -1,0 +1,16 @@
+		html {
+			padding: 20px;
+			background-image: url(bg_page2.png);
+			background-color: maroon;
+			}
+		body {
+			padding: 40px;
+			background: url(bg_page.png) repeat-x;
+			background-color: #3967CC;
+		}
+		p {
+			padding: 20px;
+			color: rgb(45,84,44);
+			font-size: 18px;
+			font-family: "Protest Guerrilla", sans-serif;
+		}
