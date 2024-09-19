@@ -30,18 +30,22 @@
 			margin: 0;
 			background: url(head-icon.png) no-repeat 260px 25px;
 		}
-		.intro{
+		.intro{ /*задаем параметр класс интро*/
 			color: (40,40,200);
 			font-family:"Playwrite CU", cursive;
 			font-size:1.2em;
 			margin-left:0px;
-			marigin-bottom: 25px;
+			margin-bottom: 25px;
 		}
-		h1 {
+		h1 { /*Задаем параметр заголовка первого уровня*/
 			text-align: center;
 			color: #A60000;
 			font-size: 5.2em;
 			box-shadow: 80px -50px 80px rgba(255,233,22,.5);
 		}
-			
-			
+		h1.intro {
+			font-size: 3.2em;
+		}
+			#podr {
+				color: white;
+			}
