@@ -41,16 +41,16 @@ table {
 	background: #E9F5FE;
 }
 body {
-	color: #B1967C;
+	color: #EF0FF;
 	 font-family: "Pacifico", cursive;
-	 padding-top: 115px;
-	 background: #CDE6FF url(images/bg_body.png) repeat-x;
-	 max-width: 800px;
+	 padding-top: 15px;
+	 background: #f7e49e url(images/2828.jpg) repeat-x;
+	 max-width: 1110px;
 	 margin: 0 auto;
 	
 }
 h1 {
-	font-size: 3em;
+	font-size: 5em;
 	font-family: "Arial Black" , Arial, sans-serif;
 	margin-bottom: 15px
 }
@@ -67,7 +67,7 @@ h2 {
 }
 .main p {
 	color: #616161;
-	 font-family: "Caveat", cursive;
+	 font-family: "Amatic SC", sans-serif;
 	 font-size: 1.1em;
 	 line-height: 150%;
 	 margin-bottom: 10px;
@@ -76,7 +76,11 @@ h2 {
 p.intro {
 	color: #6A94CC;
 	 font-family: "Caveat", cursive;
-	 font-size: 1.2em;
+	 font-size: 2.2em;
 	  margin-left: 0;
-	  margin-bottom: 15px;
+	  margin-bottom: 255px;
+}
+img {
+	display: block;
+	margin: 0 auto;
 }
