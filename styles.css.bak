@@ -7,7 +7,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -21,7 +20,7 @@ ol {
 	list-style: decimal;
 }
 ul {
-	padding-left: 1.4em
+	padding-left: 1.4em;
 	list-style: square;
 }
 table {
@@ -30,53 +29,63 @@ table {
 } 
 /* конец кода сброса стилей браузера */
 
-/* простой двухколончный макет  */
-.main {
-	float: left;
-	width: 70%;
-}
-.sidebar {
-	margin-left: 75%;
-	padding: 15px;
-	background: #E9F5FE;
-}
 body {
-	color: #B1967C;
-	 font-family: "Pacifico", cursive;
-	 padding-top: 115px;
-	 background: #CDE6FF url(images/bg_body.png) repeat-x;
-	 max-width: 800px;
-	 margin: 0 auto;
-	
+	font-size: 62.5%;
+}
+
+.content {
+	margin: 15px;
+	border: 1px dashed #999;
+	border-bottom: none;
 }
 h1 {
-	font-size: 3em;
-	font-family: "Arial Black" , Arial, sans-serif;
-	margin-bottom: 15px
+	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #999;
+	padding: 5px 0 5px 8px;
+	color: #CB0077;
 }
-h2 {
-	font-size: 2.2em;
-	color: #AFC3D6;
-	margin-bottom: 5px;
+p {
+	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
+	margin: 10px 8px;
 }
-.main h2 {
-	color: #E8A064;
-	border-bottom: 2px white solid;
-	background: url(images/bullet_flower.png) no-repeat;
-	padding: 0 0 2px 80px;
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #666666;
+	margin: 0px;
+	padding-left: 8px;
+	border-top: 1px dashed #999;
+	clear: both;
 }
-.main p {
-	color: #616161;
-	 font-family: "Caveat", cursive;
-	 font-size: 1.1em;
-	 line-height: 150%;
-	 margin-bottom: 10px;
-	 margin-left: 80px;
+/* пользовательские стили  */
+img.figure {
+	float: right;
+	margin: 15px 10px;
+	border: 1px solid black;
+	background-color: #E567B1;
+	padding: 10px;
 }
-p.intro {
-	color: #6A94CC;
-	font-family: Arial, Helevetica, sans-serif;
-	 font-size: 1.2em;
-	  margin-left: 0;
-	  margin-bottom: 15px;
+figure {
+	float: right;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
 }
+figure img {
+	border: 1px solid black;
+	background-color: #E567B1;
+	padding: 10px;
+}
+figure figcaption {
+	font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	background-image: linear-gradient(to bottom, white, #E567B1);
+	border: 1px dashed #666;
+	padding: 5px;
+	margin-top: -3px;
+}
+
+
+
+
