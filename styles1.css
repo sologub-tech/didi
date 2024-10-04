@@ -33,31 +33,31 @@ body {
 	font-size: 62.5%;
 }
 .content {
-	margin-left: 25px;
-	margin-top: 25px;
-	border: 3px dashed #999;
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px dashed #999;
 	border-right: none;
 	border-bottom: none;
 }
 p.caption {
-	font-size: 3.3em;
+	font-size: 1.3em;
 	line-height: normal;
 	margin-bottom: 15px;
 }
 .gallery .figure p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 3.1em;
+	font-size: 1.1em;
 	text-align: center;
 	line-height: normal;
 }
 
 
 h1 {
-	font: normal 5.4em Verdana, Arial, Helvetica, sans-serif;
+	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
 	margin: 0;
 	border-bottom: 1px dashed #999;
 	padding: 5px 0 5px 8px;
-	color: #EAA3F4;
+	color: #14556b;
 }
 p {
 	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
@@ -73,21 +73,11 @@ p {
 	border-top: 1px dashed #999;
 	clear: both;
 }
-figure .div1 img {
-	float: left;
-	width: 45%;
-	border: 1px solid #EAA3F4;
-	background-color: #AB46B9;
+figure img {
+	border: 1px solid #666;
+	background-color: #FFF;
 	padding: 4px;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
-
-div.div1 {
-	display: block;
-	width: 200px;
-	margin: 0 auto;
-}
-
 figcaption {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.1em;
@@ -96,9 +86,7 @@ figcaption {
 	margin: 10px 0 0 0;
 }
 figure {
-/*	float: left; */
-    display: inline-block;
-	vertical-align: top;
+	float: left;
 	width: 210px;
 	margin: 0 10px 10px 10px;
 }
