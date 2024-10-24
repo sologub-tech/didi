@@ -161,7 +161,3 @@ padding-right: 22px;
 .resources a[href*='.docx'] {
 	background: url(images/word.png) no-repeat right top;
 }
-.resources a:hover {
-color: #000;
-background-color: rgba(225,255,255,.8);
-}
